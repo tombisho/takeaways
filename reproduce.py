@@ -4,7 +4,7 @@ from fastai.text import *
 import string
 from unidecode import unidecode
 
-df = pd.read_csv('07_07_2020_final_ff.csv')
+df = pd.read_csv('output/07_07_2020_final_ff.csv')
 
 valid_idx = df[df.valid].index
 
